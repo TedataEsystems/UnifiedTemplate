@@ -16,6 +16,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   --cr3-color:#791a75;
   --cr4-color:#8e2279;
 }
+.new{
+  background: #5766730f;
+}
 button,[mat-icon-button]{
     outline: none !important;
 }
@@ -288,7 +291,7 @@ snack-bar-container.success {
           background-color: #fafafa;
   color: black !important;
           overflow: auto;
-          margin-bottom: 10px;
+          /* margin-bottom: 10px; */
           display: table;
           border-collapse: collapse;
           font-family: 'ZCOOL XiaoWei', serif !important;

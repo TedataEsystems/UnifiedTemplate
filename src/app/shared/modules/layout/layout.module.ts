@@ -71,6 +71,8 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptor } from '../../interceptors/loading.interceptor';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ErrorPageComponent } from '../../component/error-page/error-page.component';
+import { LogsComponent } from 'src/app/component/logs/logs.component';
 
 
 
@@ -132,13 +134,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UpdateShiftComponent,
     AddnewEngineerComponent,
     UpdateArchiveComponent,
-    LoaderComponent
+    LoaderComponent,
+    ErrorPageComponent,
+    LogsComponent
 
   ],
   imports: [
     CommonModule,
     MaterialModule,
     BrowserModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
@@ -162,6 +167,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
   ],
+
 
   providers:[{provide:HTTP_INTERCEPTORS , useClass:LoadingInterceptor , multi:true}]
 })

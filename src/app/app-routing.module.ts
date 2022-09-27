@@ -21,6 +21,7 @@ import { EvaluationComponent } from './component/evaluation/evaluation.component
 import { EvaluatorDailyStatComponent } from './component/evaluator-daily-stat/evaluator-daily-stat.component';
 import { EvaluatorMonthStatComponent } from './component/evaluator-month-stat/evaluator-month-stat.component';
 import { EvaluatorStatisticsComponent } from './component/evaluator-statistics/evaluator-statistics.component';
+import { LogsComponent } from './component/logs/logs.component';
 import { PendingComponent } from './component/pending/pending.component';
 import { ReEvaluateComponent } from './component/re-evaluate/re-evaluate.component';
 import { ReEvaluationReportComponent } from './component/re-evaluation-report/re-evaluation-report.component';
@@ -41,6 +42,7 @@ import { TrendShiftReportComponent } from './component/trend-shift-report/trend-
 import { TrendTeamReportComponent } from './component/trend-team-report/trend-team-report.component';
 import { ViewPendingComponent } from './component/view-pending/view-pending.component';
 import { ViewResultComponent } from './component/view-result/view-result.component';
+import { ErrorPageComponent } from './shared/component/error-page/error-page.component';
 import { LayoutComponent } from './shared/component/layout/layout.component';
 import { LoginComponent } from './shared/component/login/login.component';
 
@@ -245,13 +247,29 @@ const routes: Routes = [
     {
       path:'teamhistoryreport',
       component: BanchmarkTeamhistoryReportComponent
+    },
+    {
+      path:'history',
+      component: LogsComponent
+    },
+    {
+      path:'**',
+     pathMatch: 'full',
+    component:ErrorPageComponent,
     }
 
 
-  
+
+
     ]
+
   },
- 
+  {
+    path:'**',
+   pathMatch: 'full',
+  component:ErrorPageComponent,
+  }
+
 
 ];
 

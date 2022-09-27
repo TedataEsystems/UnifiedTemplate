@@ -9,6 +9,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/modules/material/material.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
 
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { LoadingInterceptor } from './shared/interceptors/loading.interceptor';
+
+
 
 
 
@@ -18,18 +22,22 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     LoginModule,
+    NgxSpinnerModule,
     LayoutModule,
     MaterialModule,
 
 
   ],
-  providers: [Title],
+  providers: [Title,
+              {provide:HTTP_INTERCEPTORS , useClass:LoadingInterceptor , multi:true}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
