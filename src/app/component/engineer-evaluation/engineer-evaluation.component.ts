@@ -21,7 +21,7 @@ export class EngineerEvaluationComponent implements OnInit {
   options: string[] = ['Per Shift', 'Per Engineer', 'Per Team','Random'];
   filteredOptions!: Observable<string[]>;
   constructor(private _bottomSheet: MatBottomSheet, private title :Title) {
-    this.title.setTitle(" :: Engineer Evaluation")
+    this.title.setTitle("Engineer Evaluation")
   }
 
   ngOnInit(): void {

@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class ReEvaluateComponent implements OnInit {
 
   constructor(private title : Title) {
-    this.title.setTitle(" | ReEvaluate")
+    this.title.setTitle("ReEvaluate")
    }
 
   ngOnInit(): void {

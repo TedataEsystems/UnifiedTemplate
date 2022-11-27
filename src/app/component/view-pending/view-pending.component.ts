@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class ViewPendingComponent implements OnInit {
 
   constructor(private title: Title) {
-    this.title.setTitle(" | view pending")
+    this.title.setTitle("view pending")
   }
 
   ngOnInit(): void {

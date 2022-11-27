@@ -20,7 +20,7 @@ export class EngineerStatisticComponent implements OnInit {
 
 
   constructor(private _bottomSheet: MatBottomSheet, private title :Title) {
-    this.title.setTitle(" :: Engineer Statistics")
+    this.title.setTitle("Engineer Statistics")
   }
 
   ngOnInit(): void {

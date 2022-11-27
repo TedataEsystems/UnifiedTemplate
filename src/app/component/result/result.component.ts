@@ -38,7 +38,7 @@ export class ResultComponent implements OnInit {
   searchKey:string ='' ;
   constructor(private title:Title,private dialogService: DeleteService, public toastr: ToastrService ){
 
-    this.title.setTitle(" :: Result")
+    this.title.setTitle("Result")
 
   }
 

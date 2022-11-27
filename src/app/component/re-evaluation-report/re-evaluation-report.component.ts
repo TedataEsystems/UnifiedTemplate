@@ -39,7 +39,7 @@ export class ReEvaluationReportComponent implements OnInit {
   constructor(private title:Title){
     //  this.searchKey='';
 
-    this.title.setTitle(" :: ReEvaluation report")
+    this.title.setTitle("ReEvaluation report")
 
   }
 

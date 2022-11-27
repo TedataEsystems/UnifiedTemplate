@@ -39,3 +39,18 @@ app-header{
 #sidenav .mat-list-item-content {
     padding: 0;
 }
+div.last{
+  position: absolute;
+  bottom:0;
+
+    /* background-color:#13222c ; */
+text-align: center;
+    padding: 10px;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
+
+
+
+
+}

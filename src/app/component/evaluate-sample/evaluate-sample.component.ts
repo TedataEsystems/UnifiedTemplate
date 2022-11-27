@@ -39,7 +39,7 @@ export class EvaluateSampleComponent implements OnInit {
   searchKey:string ='' ;
   constructor(private dialog: MatDialog,private titleService:Title, public toastr: ToastrService, private _bottomSheet: MatBottomSheet ){
     //  this.searchKey='';
-    this.titleService.setTitle(" :: Evaluate Sample");
+    this.titleService.setTitle("Evaluate Sample");
 
   }
 

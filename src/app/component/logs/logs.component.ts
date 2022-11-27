@@ -43,7 +43,7 @@ export class LogsComponent implements OnInit {
   searchKey:string ='' ;
   constructor(private title:Title){
 
-    this.title.setTitle(" | History")
+    this.title.setTitle("History")
 
   }
 

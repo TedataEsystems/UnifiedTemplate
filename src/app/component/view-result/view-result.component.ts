@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class ViewResultComponent implements OnInit {
 
   constructor(private title: Title) {
-    this.title.setTitle(" | view result")
+    this.title.setTitle("view result")
    }
 
   ngOnInit(): void {

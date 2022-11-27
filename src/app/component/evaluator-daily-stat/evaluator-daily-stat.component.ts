@@ -13,7 +13,7 @@ export class EvaluatorDailyStatComponent implements OnInit {
 
 
   constructor(private _bottomSheet: MatBottomSheet, private title :Title) {
-    this.title.setTitle(" | Evaluator Daily Stat.")
+    this.title.setTitle("Evaluator Daily Stat.")
   }
 
   ngOnInit(): void {

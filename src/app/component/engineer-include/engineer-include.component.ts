@@ -40,7 +40,7 @@ export class EngineerIncludeComponent implements OnInit {
   searchKey:string ='' ;
   constructor(private titleService:Title, public toastr: ToastrService, private _bottomSheet: MatBottomSheet ){
     //  this.searchKey='';
-    this.titleService.setTitle(" | Engineer Include");
+    this.titleService.setTitle("Engineer Include");
 
   }
 

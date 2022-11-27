@@ -19,7 +19,7 @@ export class DistributeEvaluatorComponent implements OnInit {
 
 
   constructor(private title : Title,private _bottomSheet: MatBottomSheet){
-    this.title.setTitle(" :: Distribute Evaluator")
+    this.title.setTitle("Distribute Evaluator")
   }
 
 

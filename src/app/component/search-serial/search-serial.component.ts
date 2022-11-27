@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class SearchSerialComponent implements OnInit {
 
   constructor( private title : Title) {
-    this.title.setTitle(" | Search serial")
+    this.title.setTitle("Search serial")
    }
 
   ngOnInit(): void {

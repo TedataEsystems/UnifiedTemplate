@@ -43,7 +43,7 @@ export class PendingComponent implements OnInit {
   constructor(private title:Title){
     //  this.searchKey='';
 
-    this.title.setTitle(" :: Pending")
+    this.title.setTitle("Pending")
 
   }
 

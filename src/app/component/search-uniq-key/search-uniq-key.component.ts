@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class SearchUniqKeyComponent implements OnInit {
 
   constructor(private title : Title) {
-    this.title.setTitle(" | Search uniq Key")
+    this.title.setTitle("Search uniq Key")
   }
 
   ngOnInit(): void {

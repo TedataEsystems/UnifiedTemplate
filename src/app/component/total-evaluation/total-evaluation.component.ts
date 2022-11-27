@@ -14,7 +14,7 @@ export class TotalEvaluationComponent implements OnInit {
 
 
   constructor(private _bottomSheet: MatBottomSheet, private title :Title) {
-    this.title.setTitle(" | Total Evaluator")
+    this.title.setTitle("Total Evaluator")
   }
 
   ngOnInit(): void {

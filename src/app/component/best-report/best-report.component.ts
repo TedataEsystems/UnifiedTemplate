@@ -41,7 +41,7 @@ export class BestReportComponent implements OnInit {
   @ViewChild('fruitInput') fruitInput!: ElementRef;
 
   constructor(private title :Title) {
-    this.title.setTitle(" :: Best Report")
+    this.title.setTitle("Best Report")
     this.filteredFruits = this.fruitCtrl.valueChanges.pipe(
         startWith(null),
         map((fruit: string | null) => fruit ? this.filter(fruit) : this.allFruits.slice()));
