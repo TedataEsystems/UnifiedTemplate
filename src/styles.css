@@ -1030,13 +1030,15 @@ mat-header-cell{
   height: 50px;
   font-size: 13px;
   color: #fff;
- background: linear-gradient(180deg, #a7aeb4, #eeeeee);
+  background: linear-gradient(1deg, #36759d, #090b14);
+ /* background: linear-gradient(180deg, #a7aeb4, #eeeeee); */
   justify-content: center;
 
 }
 
 .caption {
-  background:#576673;
+  /* background:#576673; */
+  background: var(--cr4-color);
   color: #fff;
   text-decoration: none;
   float: left;
@@ -1090,7 +1092,8 @@ border-right: 10px solid #c7c7c9;
   border-right: 10px solid #c7c7c9;
   }
 .mat-flat-button.mat-warn, .mat-raised-button.mat-warn, .mat-fab.mat-warn, .mat-mini-fab.mat-warn{
-  background-color: var(--cr2-color) !important;
+  /* background-color: var(--cr2-color) !important; */
+  background-color: var(--cr4-color) !important;
 }
 .serc{
   height:48px !important;

@@ -4,19 +4,23 @@
     /* color: #4e5051;
     background-color: #fff; */
     color: #fff;
-    background: linear-gradient(119deg,#000,#0f1323,#1b3c51,#791a75,#8e2279 50%,#1b3c51,#0f1323);
+    background: linear-gradient(90deg,#97a5ae,#eee,#eee,#1b3c51 96%);
+    /* background: linear-gradient(119deg,#000,#0f1323,#1b3c51,#791a75,#8e2279 50%,#1b3c51,#0f1323);
     background: -moz-linear-gradient(119deg,#000,#0f1323,#1b3c51,#791a75,#8e2279 50%,#1b3c51,#0f1323);
-    background: -o-linear-gradient(119deg,#000,#0f1323,#1b3c51,#791a75,#8e2279 50%,#1b3c51,#0f1323);
+    background: -o-linear-gradient(119deg,#000,#0f1323,#1b3c51,#791a75,#8e2279 50%,#1b3c51,#0f1323); */
     box-shadow: 0px 1px 12px #7a6b6b;
     padding-left: 0 !important;
 }
 .brand{
-  background: #fff;
+
+  background: url('../../../../assets/image/header_belt.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 100%;
     width: 100%;
-    border-top-right-radius: 0px;
+    /* border-top-right-radius: 0px;
     border-right: 10px solid #576673;
-    border-bottom-right-radius: 60px;
+    border-bottom-right-radius: 60px; */
 
 }
 .separator{
@@ -59,7 +63,8 @@ ul{
   font-size: 18px;
 }
 li:nth-child(4){
-  background: var(--forth-color);
+  /* background: var(--forth-color); */
+  background: #5a7180c2;
   padding-right: 5px;
 
 }
